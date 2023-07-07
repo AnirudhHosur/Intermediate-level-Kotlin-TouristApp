@@ -1,0 +1,72 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".provinceInfo.ProvinceInfoActivity">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scaleType="centerCrop"
+        android:src="@drawable/novascotia" />
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="75dp"
+        android:layout_marginTop="182dp"
+        android:layout_marginEnd="74dp"
+        android:text="Facts about Nova Scotia"
+        android:textColor="@color/black"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/titleTextView"
+        android:layout_marginTop="16dp"
+        android:orientation="vertical">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="1. At 55,284 km2 (21,345 mi2), Nova Scotia is the 2nd smallest province in Canada, after PEI. It accounts for only 0.6% of Canada’s total area."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="2. Nova Scotia is similar in size to Croatia, or twice as large as Massachusetts."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="3. Nova Scotia is surrounded by the Atlantic Ocean (including the Gulf of Saint Lawrence, Bay of Fundy, and Gulf of Maine), except for its 24 km (15 mi) land border with New Brunswick on the Isthmus of Chignecto."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="4. Nova Scotia is located exactly halfway between the Equator and North Pole, sitting at 45 degrees N."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="5. There are 3800 other smaller islands in Nova Scotia."
+            android:textSize="20sp"
+            android:layout_marginBottom="8dp"/>
+
+    </LinearLayout>
+
+</RelativeLayout>

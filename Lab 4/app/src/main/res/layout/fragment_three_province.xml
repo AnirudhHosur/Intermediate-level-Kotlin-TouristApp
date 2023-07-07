@@ -1,0 +1,45 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Pictures"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:textColor="#000000"
+        android:layout_marginTop="16dp"
+        android:layout_centerHorizontal="true" />
+
+    <ImageView
+        android:id="@+id/image1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ns1"
+        android:layout_below="@id/titleTextView"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/image2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ns2"
+        android:layout_below="@id/image1"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+    <ImageView
+        android:id="@+id/image3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ns3"
+        android:layout_below="@id/image2"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="16dp" />
+
+</RelativeLayout>

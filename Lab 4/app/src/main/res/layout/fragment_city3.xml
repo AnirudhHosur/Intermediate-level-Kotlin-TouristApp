@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Sydney"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/sydney"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Sydney is the largest urban area on Cape Breton Island and the second-largest city in Nova Scotia."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. It is known for its rich industrial and cultural history, with a strong connection to the coal mining and steel industries."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Sydney offers a beautiful waterfront, charming downtown area, and proximity to scenic attractions like the Cabot Trail and Fortress of Louisbourg."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>

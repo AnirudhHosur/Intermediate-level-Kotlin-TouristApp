@@ -1,0 +1,50 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="16dp"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/titleTextView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Peggys Cove"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="16dp" />
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:src="@drawable/ns1"
+        android:scaleType="centerCrop"
+        android:adjustViewBounds="true"
+        android:layout_marginBottom="16dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1. Peggy's Cove is a small rural community located on the eastern shore of St. Margaret's Bay in Nova Scotia, Canada."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="2. It is known for its iconic lighthouse, Peggy's Point Lighthouse, which is one of the most photographed lighthouses in Canada."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="3. Peggy's Cove offers breathtaking coastal views, rugged granite cliffs, and picturesque fishing boats, making it a popular tourist destination."
+        android:textSize="16sp"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginTop="8dp" />
+
+</LinearLayout>
